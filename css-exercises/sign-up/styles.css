@@ -1,0 +1,68 @@
+@import url(//db.onlinewebfonts.com/c/7d460b18433753a097e5bc2bad7c8dd9?family=Norse);
+*{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.content{
+    background-color: 	rgb(245,245,245);
+}
+body{
+    display: flex;
+}
+img[src="image.jpg"]{
+    /* width: 40%; */
+    width: 40vw;
+    height: 100vh;
+    object-fit: cover;
+}
+.image{
+    position: relative;
+}
+.image .bar{
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+}
+img[src="odin.png"]{
+    width: auto;
+    height: 100px;
+}
+.image h1{
+    font-size: 6rem;
+    color: #fff;
+    text-shadow: 0 0 10px #000;
+    font-family: "Norse-Bold", "Norse", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: lightskyblue;
+
+}
+
+label,input{
+    display:flex;
+    flex-direction:column;
+}
+form{
+    display: flex;
+    gap: 50px;
+
+    padding: 20px;
+    background-color: white;
+    width: 100%;
+}
+#Lets{
+    background-color: white;
+    padding: 10px 20px;
+    padding-bottom: 0px;
+}

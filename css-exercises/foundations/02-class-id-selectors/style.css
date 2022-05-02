@@ -1,0 +1,16 @@
+.odd{
+    font-family: Verdana, DejaVuSans, sans-serif;
+    background-color: pink;
+}
+.size24{
+    font-size: 24px;
+}
+
+div.size24{
+    background-color: lightgreen;
+}
+
+#two{
+    color: blue;
+    font-size: 36px;
+}

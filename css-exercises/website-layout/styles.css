@@ -1,0 +1,154 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900);
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Header,.Main,footer{
+    background-color: #1F2937;
+}
+.Header h1{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.Header, .Main, .Information, .Quote{
+    padding: 30px 80px;
+}
+.Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Header nav{
+    display: flex;
+    gap: 10px;
+}
+.Header nav a, .Main p{
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: 100;
+}
+.Header nav a{
+    text-decoration: none;
+}
+.Main h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: extra-bold;
+}
+.Main{
+    display:flex;
+}
+.Main .img-parent{
+    width: 400px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 0px 50px;
+}
+.Main img{
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-left: 100px;
+}
+.left-div{
+    width: 50%;
+    padding-right: 40px;
+}
+.left-div p{
+    padding: 10px 0px;
+}
+
+
+/* NOT WORKED ON YET */
+
+button[class="sign-up"]{
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 8px 30px;
+    color: #E5E7EB;
+    font-weight: 600;
+    border: none;
+    width: 120px;
+    
+}
+.Information h1{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: extra-bold;
+}
+.Quote{
+    background-color: #E5E7EB;
+    padding: 150px;
+}
+.Quote p{
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+.Quote h3{
+    float: right;
+    padding: 20px 30px;
+}
+
+
+.card{
+    width: 150px;
+    height: auto;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+.example-img{
+    width: 150px;
+    height: 150px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.Information{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+#information-header{
+    /* display:flex;
+    align-content: center;
+    justify-content: center; */
+    padding: 20px;
+    text-align: center;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.action{
+    
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    background-color: #3882F6;
+    margin: 80px 40px;
+    padding: 40px 20px;
+    border-radius: 8px;
+    color: #E5E7EB;
+}
+
+.action button[class="sign-up"]{
+    font-weight: 700;
+    font-size: 15px;
+    border: 1px solid white;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    color: #E5E7EB;
+}

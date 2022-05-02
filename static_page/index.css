@@ -1,0 +1,19 @@
+img {
+  width: 60px;
+}
+.nav-items {
+  list-style: none;
+  display: flex;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* space between spaces the elements out in the nav bar */
+}
+
+/* gives every li item in nav-items padding of 10 px */
+.nav-items > li {
+  padding: 10px;
+}

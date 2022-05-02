@@ -1,0 +1,17 @@
+.left,
+.right {
+  font-family: Helvetica, "Times New Roman", sans-serif;
+  font-size: 28px;
+}
+
+.left {
+  background-color: black;
+  color: white;
+}
+
+.right {
+  background-color: yellow;
+}
+
+/* basically, give two elements different classes */
+/* use a selector list to give the shared attribtues you want to */
