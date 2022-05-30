@@ -2,6 +2,7 @@ import Info from "./components/Info";
 import About from "./components/About";
 import Footer from "./components/Footer";
 import Headshot from "./images/headshot.jpeg";
+import data from "./data"
 import "./styles.css"
 function App() {
   return (
